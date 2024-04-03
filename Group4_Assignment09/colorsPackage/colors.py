@@ -1,5 +1,17 @@
 ## class.py
-
+'''*******************************************************************************************
+# Name: Anna Bowers, Alyssa Battaglia, Duncan Ward                                           *
+# email: bowersas@mail.uc.edu, battagaa@mail.uc.edu, ward2dc@mail.uc.edu                     *
+# Assignment Number: Assignment 09                                                           *
+# Due Date: 4/4/24                                                                           *
+# Course/Section: IS4010-001                                                                 *
+# Semester/Year: Spring 2024                                                                 *
+# Brief Description of the assignment: Research APIs and build a URL with a data request     *
+                                                                                             *
+# Brief Description of what this module does: Learn about APIs                               *
+# Citations: https://sampleapis.com/api-list/csscolornames                                   *
+# Anything else that's relevant:                                                             *
+*******************************************************************************************'''
 def connect():
     import requests
     import json
@@ -10,13 +22,10 @@ def connect():
     
     print(parsed_json)
     
-## Examples: DO NOT USE IN FINAL PROJECT
-    #print(parsed_json['data'][0]['description'])
-    #print(parsed_json['data'][0]['directionsInfo'])
     
     #total = int(parsed_json['total']) # The number of parks that were returned
     
-    #for park in parsed_json['data']:
+    #    for park in parsed_json['data']:
     #    print (park)
     
     print("Colors containing blue :")
