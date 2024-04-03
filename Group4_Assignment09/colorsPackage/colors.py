@@ -18,3 +18,13 @@ def connect():
     
     #for park in parsed_json['data']:
     #    print (park)
+    
+    print("Colors containing blue :")
+    for color in parsed_json:
+        if 'blue' in color['name'].lower():
+            print(color['name'])
+    print("Colors containing Green :")
+    for color in parsed_json:
+        if 'green' in color['name'].lower():
+            print(color['name'])
+            
