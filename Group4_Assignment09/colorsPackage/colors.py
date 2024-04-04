@@ -1,4 +1,4 @@
-## class.py
+## colors.py
 '''*******************************************************************************************
 # Name: Anna Bowers, Alyssa Battaglia, Duncan Ward                                           *
 # email: bowersas@mail.uc.edu, battagaa@mail.uc.edu, ward2dc@mail.uc.edu                     *
